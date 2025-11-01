@@ -29,6 +29,12 @@ GMAIL_USER="your@gmail.com" \
 GMAIL_APP_PASS="xxxx" \
 ./jenkins_notify.sh SUCCESS sample-job 10 user@example.com
 ```
+## Add Jenkins credential for DockerHub:
+## Add Jenkins credential for Gmail:
+- **Kind**: Username with password
+- **Username**: your Gmail address
+- **Password**: Gmail App Password
+- **ID**: GMAIL_GMAILAUTH
 ---
 ## Project Photos
 <img width="1883" height="910" alt="image" src="https://github.com/user-attachments/assets/f75261ce-188c-46b2-aacd-750dded38a83" />
